@@ -1,0 +1,132 @@
+{
+ "labels": {
+  "26": {
+   "items": [
+    {
+     "kw": [
+      "lecture"
+     ],
+     "cat": "School",
+     "date": "2026-11-17",
+     "time": "14:30"
+    }
+   ]
+  },
+  "27": {
+   "items": [
+    {
+     "kw": [
+      "milestone"
+     ],
+     "cat": "School",
+     "date": "2026-11-30",
+     "time": null,
+     "unsure": [
+      "date"
+     ]
+    }
+   ]
+  },
+  "28": {
+   "items": [
+    {
+     "kw": [
+      "advisor"
+     ],
+     "cat": "School",
+     "alt_cat": [
+      "Work"
+     ],
+     "date": "2026-11-26",
+     "time": "16:45"
+    }
+   ]
+  },
+  "29": {
+   "items": [
+    {
+     "kw": [
+      "thanksgiving",
+      "dinner"
+     ],
+     "cat": "Personal",
+     "date": "2026-11-26",
+     "time": "14:00"
+    }
+   ]
+  },
+  "30": {
+   "items": [
+    {
+     "kw": [
+      "invoice"
+     ],
+     "cat": "Work",
+     "date": "2026-11-23",
+     "alt_date": [
+      "2026-11-16"
+     ],
+     "time": "09:00"
+    }
+   ]
+  },
+  "31": {
+   "items": [
+    {
+     "kw": [
+      "sprint",
+      "demo"
+     ],
+     "cat": "Work",
+     "date": "2026-11-18",
+     "time": "15:30"
+    }
+   ]
+  },
+  "32": {
+   "items": [
+    {
+     "kw": [
+      "hw",
+      "homework"
+     ],
+     "cat": "School",
+     "date": "2026-11-17",
+     "time": null,
+     "alt_time": [
+      "17:00",
+      "23:59"
+     ]
+    }
+   ]
+  },
+  "33": {
+   "items": [
+    {
+     "kw": [
+      "funmilayo",
+      "prototype",
+      "meet"
+     ],
+     "cat": "School",
+     "alt_cat": [
+      "Projects"
+     ],
+     "date": "2026-11-20",
+     "time": "12:30"
+    },
+    {
+     "kw": [
+      "survey"
+     ],
+     "cat": null,
+     "date": "2026-11-19",
+     "time": null,
+     "unsure": [
+      "category"
+     ]
+    }
+   ]
+  }
+ }
+}
