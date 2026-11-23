@@ -1,6 +1,5 @@
 # Proof of concept demo kit (CS 415 personal coordination system)
 
-All screenshots here are MOCK Canvas/Outlook screens. No real, school or work data.
 
 ## One-time setup (about 10 minutes)
 1. Python 3.9+ (python.org). Check: `python3 --version` (Windows: `python --version`).
