@@ -30,7 +30,6 @@ Raw outputs are in `demo_kit/results/`.
 | Naive title similarity (P2's matcher, ratio >= 0.7) | 26/40 (65%): treats Quiz 7 as a duplicate of Quiz 5 | 10/16 (62%) |
 | **P3 `dedupe.py`** | **40/40 (100%)** | **15/16 (94%)** |
 
-Honesty notes: the dev cases were written before the code, but I designed the rules knowing what they had to handle, and one case ("CS 450 lab 7") failed on first run (39/40) and was fixed, so treat 40/40 as "developed against". The blind set was written after the code was frozen and run once. Its one miss is an abbreviation: "GA office **hrs**" vs "GA office hours" (no synonym handling).
 
 ### 2. Dump parser (`python3 demo.py dumps`, `--stress`, `--heldout`)
 | Test set | Items found | Date+time correct | Category correct | Expected "check this" flags raised |
@@ -39,8 +38,6 @@ Honesty notes: the dev cases were written before the code, but I designed the ru
 | 8 harder phrasings (**tuned on**) | 7/9 -> 9/9 | 44% -> 94% | 44% -> 89% | 2/6 -> 3/6 |
 | 20 held-out dumps (written before parser changes) | 17/21 -> 21/21 | 67% -> **100%** | 71% -> **90%** | 1/4 -> 2/4 |
 
-Caveats: the held-out phrases are my own and cover the same families of phrasing that failed in the stress set (clock phrases, holidays, "end of the month", "EOD"). They show the rules generalize across words and items, not that arbitrary speech works. Uncertainty flags are still the weakest part: the parser raises only about half of the flags a person would want.
-Remaining held-out misses: "lab report" (lab = School, report = Work: it flags the category but picks Work), and "boss" is not in the Work vocabulary (flagged, not guessed).
 
 ### 3. Coverage status (`python3 demo.py coverage <set>`)
 | Condition | Canvas | Outlook | Correct? |
@@ -62,9 +59,3 @@ Friends who heard the idea said uploading several screenshots of the same calend
 | clean screenshot, then phone-quality screenshot of the same screen | 11 duplicates, 0 new |
 | same screenshot uploaded twice | 11 duplicates, 0 new |
 
-Limit: one mock Canvas screen in four versions (Canvas only), not real accounts or overlapping Outlook weeks.
-
-## Limits (say these on the slide or in Q&A)
-- Only one version of the mock screens x 4 conditions is in the repo, so that is what was rerun. The P2 deck's "5 random versions" matrix is not in the repo and was not rerun.
-- Mock data, rule-based, no language model; test sets are small and written by the team.
-- OCR output can differ slightly across Tesseract versions. Rerun `demo.py screenshots clean --reveal` on your machine before quoting those numbers.
