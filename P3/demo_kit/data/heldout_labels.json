@@ -1,0 +1,280 @@
+{
+ "_notes": "Held-out set written BEFORE any P3 parser change. Same label conventions as labels.json.",
+ "labels": {
+  "101": {
+   "items": [
+    {
+     "kw": [
+      "dentist",
+      "appointment"
+     ],
+     "cat": "Personal",
+     "date": "2026-11-19",
+     "time": "16:15"
+    }
+   ]
+  },
+  "102": {
+   "items": [
+    {
+     "kw": [
+      "standup"
+     ],
+     "cat": "Work",
+     "date": "2026-11-17",
+     "time": "09:30"
+    }
+   ]
+  },
+  "103": {
+   "items": [
+    {
+     "kw": [
+      "lab"
+     ],
+     "cat": "School",
+     "date": "2026-11-20",
+     "time": null,
+     "alt_time": [
+      "17:00",
+      "23:59"
+     ]
+    }
+   ]
+  },
+  "104": {
+   "items": [
+    {
+     "kw": [
+      "dentist",
+      "appointment"
+     ],
+     "cat": "Personal",
+     "date": "2026-11-24",
+     "time": "11:00"
+    }
+   ]
+  },
+  "105": {
+   "items": [
+    {
+     "kw": [
+      "budget",
+      "review"
+     ],
+     "cat": "Work",
+     "date": "2026-11-19",
+     "time": "17:30"
+    }
+   ]
+  },
+  "106": {
+   "items": [
+    {
+     "kw": [
+      "budget"
+     ],
+     "cat": "Work",
+     "date": "2026-11-20",
+     "time": "09:00"
+    }
+   ]
+  },
+  "107": {
+   "items": [
+    {
+     "kw": [
+      "rent"
+     ],
+     "cat": "Personal",
+     "date": "2026-12-01",
+     "time": null
+    }
+   ]
+  },
+  "108": {
+   "items": [
+    {
+     "kw": [
+      "study group",
+      "itm"
+     ],
+     "cat": "School",
+     "date": "2026-11-19",
+     "time": "13:30"
+    }
+   ]
+  },
+  "109": {
+   "items": [
+    {
+     "kw": [
+      "manager"
+     ],
+     "cat": "Work",
+     "date": "2026-11-18",
+     "time": "14:45"
+    }
+   ]
+  },
+  "110": {
+   "items": [
+    {
+     "kw": [
+      "thanksgiving",
+      "lunch"
+     ],
+     "cat": "Personal",
+     "date": "2026-11-26",
+     "time": "12:00"
+    }
+   ]
+  },
+  "111": {
+   "items": [
+    {
+     "kw": [
+      "christmas",
+      "dinner"
+     ],
+     "cat": "Personal",
+     "date": "2026-12-24",
+     "time": "18:00"
+    }
+   ]
+  },
+  "112": {
+   "items": [
+    {
+     "kw": [
+      "capstone",
+      "proposal"
+     ],
+     "cat": "School",
+     "date": "2026-11-30",
+     "time": null,
+     "unsure": [
+      "date"
+     ]
+    }
+   ]
+  },
+  "113": {
+   "items": [
+    {
+     "kw": [
+      "quarterly",
+      "update",
+      "boss"
+     ],
+     "cat": "Work",
+     "date": "2026-11-18",
+     "time": null,
+     "alt_time": [
+      "17:00",
+      "23:59"
+     ]
+    }
+   ]
+  },
+  "114": {
+   "items": [
+    {
+     "kw": [
+      "groceries"
+     ],
+     "cat": "Personal",
+     "date": "2026-11-16",
+     "time": "19:00"
+    }
+   ]
+  },
+  "115": {
+   "items": [
+    {
+     "kw": [
+      "peer"
+     ],
+     "cat": "School",
+     "date": "2026-11-24",
+     "time": "17:00"
+    }
+   ]
+  },
+  "116": {
+   "items": [
+    {
+     "kw": [
+      "manager",
+      "1:1"
+     ],
+     "cat": "Work",
+     "date": "2026-11-19",
+     "time": "15:00"
+    }
+   ]
+  },
+  "117": {
+   "items": [
+    {
+     "kw": [
+      "mom"
+     ],
+     "cat": "Personal",
+     "date": "2026-11-22",
+     "time": "14:00"
+    }
+   ]
+  },
+  "118": {
+   "items": [
+    {
+     "kw": [
+      "homework"
+     ],
+     "cat": "School",
+     "date": "2026-11-17",
+     "time": "23:59"
+    }
+   ]
+  },
+  "119": {
+   "items": [
+    {
+     "kw": [
+      "coffee",
+      "funmi"
+     ],
+     "cat": null,
+     "date": "2026-11-21",
+     "time": "10:30",
+     "unsure": [
+      "category"
+     ]
+    }
+   ]
+  },
+  "120": {
+   "items": [
+    {
+     "kw": [
+      "retro",
+      "sprint"
+     ],
+     "cat": "Work",
+     "date": "2026-11-19",
+     "time": "10:00"
+    },
+    {
+     "kw": [
+      "hci",
+      "reading"
+     ],
+     "cat": "School",
+     "date": "2026-11-20",
+     "time": null
+    }
+   ]
+  }
+ }
+}

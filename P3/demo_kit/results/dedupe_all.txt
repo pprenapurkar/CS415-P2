@@ -1,0 +1,31 @@
+
+=== dedupe_cases.json ===
+P2 (no duplicate check): 16/40 correct (40%) | hard cases 9/16 | duplicates 0/14 | updates 0/10 | new 16/16
+naive title similarity (P2 matcher): 26/40 correct (65%) | hard cases 2/16 | duplicates 9/14 | updates 9/10 | new 8/16
+    wrong: ('CS 450 lab 7', '2026-11-19', 'DUPLICATE', 'NEW')
+    wrong: ('ITM 540 quiz 5', '2026-11-18', 'DUPLICATE', 'NEW')
+    wrong: ('design review with the team', '2026-11-19', 'DUPLICATE', 'NEW')
+    wrong: ('ethics discussion post', '2026-11-21', 'DUPLICATE', 'NEW')
+    wrong: ('Meeting with advisor', '2026-11-20', 'DUPLICATE', 'NEW')
+    wrong: ('peer review', '2026-11-22', 'UPDATE', 'NEW')
+    wrong: ('Quiz 7', '2026-11-18', 'NEW', 'DUPLICATE')
+    wrong: ('Reading Response 12', '2026-11-24', 'NEW', 'UPDATE')
+    wrong: ('Homework 7', '2026-11-24', 'NEW', 'DUPLICATE')
+    wrong: ('Case Study 4 Reflection', '2026-12-02', 'NEW', 'UPDATE')
+    wrong: ('Study group', '2026-12-03', 'NEW', 'UPDATE')
+    wrong: ('Final project milestone 3', '2026-12-08', 'NEW', 'UPDATE')
+    wrong: ('CS 415 Lecture', '2026-11-23', 'NEW', 'UPDATE')
+    wrong: ('Team standup', '2026-11-24', 'NEW', 'UPDATE')
+P3 dedupe.py: 40/40 correct (100%) | hard cases 16/16 | duplicates 14/14 | updates 10/10 | new 16/16
+
+=== dedupe_blind.json ===
+P2 (no duplicate check): 5/16 correct (31%) | hard cases 4/10 | duplicates 0/7 | updates 0/4 | new 5/5
+naive title similarity (P2 matcher): 10/16 correct (62%) | hard cases 5/10 | duplicates 5/7 | updates 4/4 | new 1/5
+    wrong: ('Quiz 6', '2026-11-30', 'DUPLICATE', 'UPDATE')
+    wrong: ('Quiz 8', '2026-12-07', 'NEW', 'UPDATE')
+    wrong: ('Office hours', '2026-11-18', 'NEW', 'UPDATE')
+    wrong: ('Discussion post', '2026-11-21', 'DUPLICATE', 'NEW')
+    wrong: ('Homework 5', '2026-11-17', 'NEW', 'UPDATE')
+    wrong: ('Reading Response 11 ITM 540', '2026-11-17', 'NEW', 'DUPLICATE')
+P3 dedupe.py: 15/16 correct (94%) | hard cases 9/10 | duplicates 6/7 | updates 4/4 | new 5/5
+    wrong: ('GA office hrs', '2026-11-17', 'DUPLICATE', 'NEW')

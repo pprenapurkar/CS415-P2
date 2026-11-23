@@ -1,0 +1,106 @@
+{
+ "set": "cropped",
+ "headline": "Outlook captured. Canvas partial. 14 item(s) need review.",
+ "sources": [
+  {
+   "name": "Canvas",
+   "expected": 12,
+   "read": 6,
+   "status": "Partial",
+   "detail": "Screenshot is cut off after 2026-11-23. 5 items below it can't be confirmed."
+  },
+  {
+   "name": "Outlook",
+   "expected": 12,
+   "read": 13,
+   "status": "Captured",
+   "detail": "Read 13 items; looks complete."
+  }
+ ],
+ "needs_review": [
+  {
+   "type": "MISSING",
+   "source": "Canvas",
+   "title": "Quiz 5",
+   "why": "Expected 2026-11-18 but it is not in the screenshot."
+  },
+  {
+   "type": "MISSING",
+   "source": "Canvas",
+   "title": "Peer Review: Teammate Feedback",
+   "why": "Expected 2026-11-22 but it is not in the screenshot."
+  },
+  {
+   "type": "CHANGED",
+   "source": "Canvas",
+   "title": "Project Proposal Draft",
+   "why": "time: 23:59 -> 12:00"
+  },
+  {
+   "type": "NEW",
+   "source": "Canvas",
+   "title": "Survey: Course Feedback",
+   "why": "On 2026-11-20, not on your list."
+  },
+  {
+   "type": "CANT_CONFIRM",
+   "source": "Canvas",
+   "title": "Homework 6",
+   "why": "Expected 2026-11-24, below the cut-off."
+  },
+  {
+   "type": "CANT_CONFIRM",
+   "source": "Canvas",
+   "title": "Case Study 3 Reflection",
+   "why": "Expected 2026-11-25, below the cut-off."
+  },
+  {
+   "type": "CANT_CONFIRM",
+   "source": "Canvas",
+   "title": "Final Project Milestone 2",
+   "why": "Expected 2026-12-01, below the cut-off."
+  },
+  {
+   "type": "CANT_CONFIRM",
+   "source": "Canvas",
+   "title": "Quiz 6",
+   "why": "Expected 2026-11-30, below the cut-off."
+  },
+  {
+   "type": "CANT_CONFIRM",
+   "source": "Canvas",
+   "title": "Final Presentation Slides",
+   "why": "Expected 2026-12-04, below the cut-off."
+  },
+  {
+   "type": "MISSING",
+   "source": "Outlook",
+   "title": "CS 415 Lecture",
+   "why": "Expected 2026-11-16 but it is not in the screenshot."
+  },
+  {
+   "type": "CHANGED",
+   "source": "Outlook",
+   "title": "Team standup",
+   "why": "date: 2026-11-16 -> 2026-11-17"
+  },
+  {
+   "type": "CHANGED",
+   "source": "Outlook",
+   "title": "Study group",
+   "why": "time: 12:00-13:00 -> 13:00-14:00"
+  },
+  {
+   "type": "NEW",
+   "source": "Outlook",
+   "title": "Budget review",
+   "why": "On 2026-11-18, not on your list."
+  },
+  {
+   "type": "NEW",
+   "source": "Outlook",
+   "title": "Career fair prep",
+   "why": "On 2026-11-20, not on your list."
+  }
+ ]
+}

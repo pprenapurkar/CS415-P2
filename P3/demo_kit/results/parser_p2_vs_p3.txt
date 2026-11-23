@@ -1,0 +1,6 @@
+dump_parser_p2   original_25: items found 44/45 | date 44/45 (98%) | time 43/45 (96%) | date+time 87/90 (97%) | category 43/45 (96%) | expected flags raised 10/13 | unneeded flags 4 | spurious items 1 | forbidden created 0
+dump_parser      original_25: items found 44/45 | date 44/45 (98%) | time 43/45 (96%) | date+time 87/90 (97%) | category 43/45 (96%) | expected flags raised 10/13 | unneeded flags 4 | spurious items 1 | forbidden created 0
+dump_parser_p2   stress_: items found 7/9 | date 4/9 (44%) | time 4/9 (44%) | date+time 8/18 (44%) | category 4/9 (44%) | expected flags raised 2/6 | unneeded flags 2 | spurious items 1 | forbidden created 0
+dump_parser      stress_: items found 9/9 | date 8/9 (89%) | time 9/9 (100%) | date+time 17/18 (94%) | category 8/9 (89%) | expected flags raised 3/6 | unneeded flags 0 | spurious items 0 | forbidden created 0
+dump_parser_p2   heldout_: items found 17/21 | date 14/21 (67%) | time 14/21 (67%) | date+time 28/42 (67%) | category 15/21 (71%) | expected flags raised 1/4 | unneeded flags 2 | spurious items 3 | forbidden created 0
+dump_parser      heldout_: items found 21/21 | date 21/21 (100%) | time 21/21 (100%) | date+time 42/42 (100%) | category 19/21 (90%) | expected flags raised 2/4 | unneeded flags 2 | spurious items 0 | forbidden created 0

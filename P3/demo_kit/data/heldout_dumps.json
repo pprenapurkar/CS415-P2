@@ -1,0 +1,85 @@
+{
+ "today": "2026-11-16 (Monday)",
+ "dumps": [
+  {
+   "id": 101,
+   "text": "Quarter past four on Thursday I have a dentist appointment."
+  },
+  {
+   "id": 102,
+   "text": "Half past nine tomorrow, team standup."
+  },
+  {
+   "id": 103,
+   "text": "Lab report due by EOD Friday."
+  },
+  {
+   "id": 104,
+   "text": "A week from Tuesday I have a dentist appointment at 11."
+  },
+  {
+   "id": 105,
+   "text": "My 4pm Thursday got pushed to five thirty, it's the budget review."
+  },
+  {
+   "id": 106,
+   "text": "First thing Friday I have to email the budget report, before nine."
+  },
+  {
+   "id": 107,
+   "text": "Rent is due on the first."
+  },
+  {
+   "id": 108,
+   "text": "Half past one Thursday, study group for ITM."
+  },
+  {
+   "id": 109,
+   "text": "Quarter to three on Wednesday I'm talking to my manager."
+  },
+  {
+   "id": 110,
+   "text": "Thanksgiving lunch is at noon."
+  },
+  {
+   "id": 111,
+   "text": "Christmas Eve dinner at six."
+  },
+  {
+   "id": 112,
+   "text": "Capstone proposal is due at the end of the month."
+  },
+  {
+   "id": 113,
+   "text": "Send the quarterly update to my boss by EOD Wednesday."
+  },
+  {
+   "id": 114,
+   "text": "Pick up groceries tonight around seven."
+  },
+  {
+   "id": 115,
+   "text": "Peer review is due the 24th at 5."
+  },
+  {
+   "id": 116,
+   "text": "I've got a 1:1 with my manager at 3 on Thursday."
+  },
+  {
+   "id": 117,
+   "text": "Call mom Sunday at two."
+  },
+  {
+   "id": 118,
+   "text": "Homework 7 due tomorrow at 11:59 pm."
+  },
+  {
+   "id": 119,
+   "text": "Coffee with Funmi on Saturday at ten thirty."
+  },
+  {
+   "id": 120,
+   "text": "Sprint retro Thursday at ten, and then the HCI reading Friday."
+  }
+ ]
+}

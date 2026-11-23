@@ -1,0 +1,174 @@
+{
+ "canvas": [
+  {
+   "id": "c1",
+   "title": "P2 Prototype Write-up",
+   "course": "CS 415",
+   "date": "2026-11-20",
+   "time": "23:59"
+  },
+  {
+   "id": "c2",
+   "title": "Reading Response 11",
+   "course": "CS 450",
+   "date": "2026-11-17",
+   "time": "23:59"
+  },
+  {
+   "id": "c3",
+   "title": "Lab 7: Query Optimization",
+   "course": "CS 450",
+   "date": "2026-11-19",
+   "time": "23:59"
+  },
+  {
+   "id": "c4",
+   "title": "Quiz 5",
+   "course": "ITM 540",
+   "date": "2026-11-18",
+   "time": "09:00"
+  },
+  {
+   "id": "c5",
+   "title": "Project Proposal Draft",
+   "course": "ITM 540",
+   "date": "2026-11-23",
+   "time": "23:59"
+  },
+  {
+   "id": "c6",
+   "title": "Peer Review: Teammate Feedback",
+   "course": "CS 415",
+   "date": "2026-11-22",
+   "time": "17:00"
+  },
+  {
+   "id": "c7",
+   "title": "Homework 6",
+   "course": "CS 450",
+   "date": "2026-11-24",
+   "time": "23:59"
+  },
+  {
+   "id": "c8",
+   "title": "Case Study 3 Reflection",
+   "course": "ITM 540",
+   "date": "2026-11-25",
+   "time": "23:59"
+  },
+  {
+   "id": "c9",
+   "title": "Discussion Post: Ethics in Design",
+   "course": "CS 415",
+   "date": "2026-11-21",
+   "time": "23:59"
+  },
+  {
+   "id": "c10",
+   "title": "Final Project Milestone 2",
+   "course": "CS 450",
+   "date": "2026-12-01",
+   "time": "23:59"
+  },
+  {
+   "id": "c11",
+   "title": "Quiz 6",
+   "course": "ITM 540",
+   "date": "2026-11-30",
+   "time": "09:00"
+  },
+  {
+   "id": "c12",
+   "title": "Final Presentation Slides",
+   "course": "CS 415",
+   "date": "2026-12-04",
+   "time": "09:59"
+  }
+ ],
+ "outlook": [
+  {
+   "id": "o1",
+   "title": "Team standup",
+   "date": "2026-11-16",
+   "start": "09:00",
+   "end": "10:00"
+  },
+  {
+   "id": "o2",
+   "title": "CS 415 Lecture",
+   "date": "2026-11-16",
+   "start": "14:00",
+   "end": "15:30"
+  },
+  {
+   "id": "o3",
+   "title": "Project sync",
+   "date": "2026-11-16",
+   "start": "16:30",
+   "end": "17:30"
+  },
+  {
+   "id": "o4",
+   "title": "1:1 with manager",
+   "date": "2026-11-17",
+   "start": "10:30",
+   "end": "11:30"
+  },
+  {
+   "id": "o5",
+   "title": "GA office hours",
+   "date": "2026-11-17",
+   "start": "13:00",
+   "end": "14:00"
+  },
+  {
+   "id": "o6",
+   "title": "ITM 540 Lecture",
+   "date": "2026-11-18",
+   "start": "10:00",
+   "end": "11:00"
+  },
+  {
+   "id": "o7",
+   "title": "CS 415 Lecture",
+   "date": "2026-11-18",
+   "start": "14:00",
+   "end": "15:30"
+  },
+  {
+   "id": "o8",
+   "title": "Sprint planning",
+   "date": "2026-11-18",
+   "start": "16:00",
+   "end": "17:00"
+  },
+  {
+   "id": "o9",
+   "title": "Design review",
+   "date": "2026-11-19",
+   "start": "09:30",
+   "end": "10:30"
+  },
+  {
+   "id": "o10",
+   "title": "Study group",
+   "date": "2026-11-19",
+   "start": "12:00",
+   "end": "13:00"
+  },
+  {
+   "id": "o11",
+   "title": "Advisor meeting",
+   "date": "2026-11-20",
+   "start": "11:00",
+   "end": "12:00"
+  },
+  {
+   "id": "o12",
+   "title": "Team retro",
+   "date": "2026-11-20",
+   "start": "15:00",
+   "end": "16:00"
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "_notes": "Blind set: written after dedupe.py was frozen (md5 10ecd472...). Run once, no tuning.",
+ "cases": [
+  {
+   "title": "Quiz 6",
+   "date": "2026-11-30",
+   "time": "09:00",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "Quiz 6",
+   "date": "2026-12-01",
+   "time": "09:00",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "Quiz 8",
+   "date": "2026-12-07",
+   "time": "09:00",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Final Presentation",
+   "date": "2026-12-04",
+   "time": "09:59",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "GA office hrs",
+   "date": "2026-11-17",
+   "time": "13:00",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "Office hours",
+   "date": "2026-11-17",
+   "time": "13:00",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "Office hours",
+   "date": "2026-11-18",
+   "time": "15:00",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Sprint planning meeting",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "Sprint planning",
+   "date": "2026-11-18",
+   "time": "14:00",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "ITM 540 lecture",
+   "date": "2026-11-18",
+   "time": "10:00",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "ITM 540 Lecture",
+   "date": "2026-11-18",
+   "time": "14:00",
+   "expected": "UPDATE",
+   "hard": true
+  },
+  {
+   "title": "Discussion post",
+   "date": "2026-11-21",
+   "time": "23:59",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "Homework 5",
+   "date": "2026-11-17",
+   "time": "23:59",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Reading Response 11 ITM 540",
+   "date": "2026-11-17",
+   "time": "23:59",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Project proposal draft",
+   "date": "2026-11-23",
+   "time": "12:00",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "Dentist",
+   "date": "2026-11-23",
+   "time": "10:00",
+   "expected": "NEW",
+   "hard": false
+  }
+ ]
+}

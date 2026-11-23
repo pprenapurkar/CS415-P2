@@ -1,0 +1,82 @@
+{
+ "set": "phone",
+ "headline": "Canvas, Outlook captured. 10 item(s) need review.",
+ "sources": [
+  {
+   "name": "Canvas",
+   "expected": 12,
+   "read": 11,
+   "status": "Captured",
+   "detail": "Read 11 items; looks complete."
+  },
+  {
+   "name": "Outlook",
+   "expected": 12,
+   "read": 13,
+   "status": "Captured",
+   "detail": "Read 13 items; looks complete."
+  }
+ ],
+ "needs_review": [
+  {
+   "type": "MISSING",
+   "source": "Canvas",
+   "title": "Quiz 5",
+   "why": "Expected 2026-11-18 but it is not in the screenshot."
+  },
+  {
+   "type": "MISSING",
+   "source": "Canvas",
+   "title": "Peer Review: Teammate Feedback",
+   "why": "Expected 2026-11-22 but it is not in the screenshot."
+  },
+  {
+   "type": "CHANGED",
+   "source": "Canvas",
+   "title": "Project Proposal Draft",
+   "why": "time: 23:59 -> 12:00"
+  },
+  {
+   "type": "CHANGED",
+   "source": "Canvas",
+   "title": "Homework 6",
+   "why": "date: 2026-11-24 -> 2026-11-27"
+  },
+  {
+   "type": "NEW",
+   "source": "Canvas",
+   "title": "Survey: Course Feedback",
+   "why": "On 2026-11-20, not on your list."
+  },
+  {
+   "type": "MISSING",
+   "source": "Outlook",
+   "title": "CS 415 Lecture",
+   "why": "Expected 2026-11-16 but it is not in the screenshot."
+  },
+  {
+   "type": "CHANGED",
+   "source": "Outlook",
+   "title": "Team standup",
+   "why": "date: 2026-11-16 -> 2026-11-17; time: 09:00-10:00 -> 09:00-10:06"
+  },
+  {
+   "type": "CHANGED",
+   "source": "Outlook",
+   "title": "Study group",
+   "why": "time: 12:00-13:00 -> 13:00-14:00"
+  },
+  {
+   "type": "NEW",
+   "source": "Outlook",
+   "title": "Budget review",
+   "why": "On 2026-11-18, not on your list."
+  },
+  {
+   "type": "NEW",
+   "source": "Outlook",
+   "title": "Career fair prep",
+   "why": "On 2026-11-20, not on your list."
+  }
+ ]
+}

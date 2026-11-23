@@ -1,0 +1,5 @@
+PASS  partial screenshot, then full screenshot (6 overlap): {'DUPLICATE': 6, 'UPDATE': 0, 'NEW': 5}  (expected 6 duplicate, 5 new)
+PASS  full screenshot, then partial screenshot: {'DUPLICATE': 6, 'UPDATE': 0, 'NEW': 0}  (expected 6 duplicate, 0 new)
+PASS  clean screenshot, then phone-quality screenshot of the same screen: {'DUPLICATE': 11, 'UPDATE': 0, 'NEW': 0}  (expected 11 duplicate, 0 new)
+PASS  same screenshot uploaded twice: {'DUPLICATE': 11, 'UPDATE': 0, 'NEW': 0}  (expected 11 duplicate, 0 new)
+4/4 scenarios passed

@@ -1,0 +1,30 @@
+{
+ "today": "2026-11-16 (Monday)",
+ "dumps": [
+  {"id": 1, "text": "Tomorrow I have a work meeting at 10, HCI is due Friday, I need to finish my UGC wireframes tonight, and I have a personal appointment at 4."},
+  {"id": 2, "text": "Okay so um my GA office hours are Wednesday two to four, and then Thursday I have the design review at nine thirty, oh and Quiz 6 is due the thirtieth."},
+  {"id": 3, "text": "Dentist is Tuesday at 3, wait no, Wednesday, Wednesday at 3."},
+  {"id": 4, "text": "I need to submit the P2 prototype write-up by Friday at 11:59 pm and also email Professor Miller about the extension."},
+  {"id": 5, "text": "Sprint planning Wednesday at 4, and 1:1 with my manager Tuesday around 10:30."},
+  {"id": 6, "text": "Sometime next week I need to get my car inspected, I keep forgetting."},
+  {"id": 7, "text": "Study group for ITM 540 is Thursday at noon in the library, oh and bring the laptop charger."},
+  {"id": 8, "text": "Homework 6 is due on the twenty-fourth. Also the final presentation slides on December 4th at 9:59."},
+  {"id": 9, "text": "I should really start going to the gym more, and also I want to read more."},
+  {"id": 10, "text": "Capstone check-in tomorrow at eleven and then project sync at 3:30, I think, maybe 4?"},
+  {"id": 11, "text": "Pay rent on the first, and call mom Sunday afternoon."},
+  {"id": 12, "text": "Advisor meeting Friday at eleven, then career fair prep at one, then I'm free."},
+  {"id": 13, "text": "Tonight finish the HCI reading, tomorrow morning send the weekly report to my manager, and Friday evening dinner with Funmilayo at seven."},
+  {"id": 14, "text": "Reading Response 11 is due tomorrow at 11:59 pm. Lab 7 due Thursday, same time."},
+  {"id": 15, "text": "I have a thing on the 28th."},
+  {"id": 16, "text": "Meeting with Prof Miller Tuesday at 3:00 to 3:45."},
+  {"id": 17, "text": "Next Friday is the retro, three pm."},
+  {"id": 18, "text": "Wednesday I have class at two, then sprint planning at four, so I need lunch before that."},
+  {"id": 19, "text": "Oh and the budget review got moved from Wednesday to Thursday at noon."},
+  {"id": 20, "text": "Submit the project proposal draft by Monday the 23rd, it's thirty points, and also don't forget the peer review Sunday at five."},
+  {"id": 21, "text": "Doctor appointment in two weeks at 9 in the morning."},
+  {"id": 22, "text": "UGC wireframes for the checkout flow due Wednesday, Figma review with the team Thursday morning."},
+  {"id": 23, "text": "Cancel the study group on Thursday, I'm not doing that anymore. But keep the Friday one at 4."},
+  {"id": 24, "text": "Team retro Friday at three, and then drinks with the team afterwards, maybe five-ish?"},
+  {"id": 25, "text": "Alright brain dump. Quiz 5 is tomorrow morning, I think nine? Then the manager 1:1, that's Tuesday too at ten thirty, no wait, that got moved to eleven. Final Project Milestone 2 is December 1st. And I need to buy groceries tonight."}
+ ]
+}

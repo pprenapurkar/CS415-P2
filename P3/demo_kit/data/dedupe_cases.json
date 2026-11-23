@@ -1,0 +1,285 @@
+{
+ "_notes": "40 incoming items vs samples/known_list.json (24 items). Written BEFORE dedupe.py. DUPLICATE=same commitment, nothing to change; UPDATE=same commitment with a changed date/time; NEW=different commitment even if the title looks similar. Recurring items a week or more later count as NEW.",
+ "cases": [
+  {
+   "title": "P2 prototype write-up",
+   "date": "2026-11-20",
+   "time": "23:59",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "reading response 11",
+   "date": "2026-11-17",
+   "time": "23:59",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "Lab 7 query optimization",
+   "date": "2026-11-19",
+   "time": "23:59",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "CS 450 lab 7",
+   "date": "2026-11-19",
+   "time": "23:59",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "ITM 540 quiz 5",
+   "date": "2026-11-18",
+   "time": "09:00",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "Standup",
+   "date": "2026-11-16",
+   "time": "09:00",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "team stand-up",
+   "date": "2026-11-16",
+   "time": "09:00",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "design review with the team",
+   "date": "2026-11-19",
+   "time": "09:30",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "1:1 w/ manager",
+   "date": "2026-11-17",
+   "time": "10:30",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "Sprint planning",
+   "date": "2026-11-18",
+   "time": "16:00",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "Project proposal",
+   "date": "2026-11-23",
+   "time": "23:59",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "ethics discussion post",
+   "date": "2026-11-21",
+   "time": "23:59",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "Meeting with advisor",
+   "date": "2026-11-20",
+   "time": "11:00",
+   "expected": "DUPLICATE",
+   "hard": true
+  },
+  {
+   "title": "Case Study 3 Reflection",
+   "date": "2026-11-25",
+   "time": "23:59",
+   "expected": "DUPLICATE",
+   "hard": false
+  },
+  {
+   "title": "Quiz 5",
+   "date": "2026-11-19",
+   "time": "09:00",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "Homework 6",
+   "date": "2026-11-24",
+   "time": "17:00",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "Design review",
+   "date": "2026-11-19",
+   "time": "11:00",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "Study group",
+   "date": "2026-11-20",
+   "time": "12:00",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "advisor meeting",
+   "date": "2026-11-21",
+   "time": "11:00",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "Lab 7 query optimization",
+   "date": "2026-11-20",
+   "time": "23:59",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "peer review",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "expected": "UPDATE",
+   "hard": true
+  },
+  {
+   "title": "Final presentation slides",
+   "date": "2026-12-04",
+   "time": "17:00",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "Project sync",
+   "date": "2026-11-17",
+   "time": "16:30",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "Reading Response 11",
+   "date": "2026-11-19",
+   "time": "23:59",
+   "expected": "UPDATE",
+   "hard": false
+  },
+  {
+   "title": "Quiz 7",
+   "date": "2026-11-18",
+   "time": "09:00",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Reading Response 12",
+   "date": "2026-11-24",
+   "time": "23:59",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Homework 7",
+   "date": "2026-11-24",
+   "time": "23:59",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Lab 8: Indexing",
+   "date": "2026-11-26",
+   "time": "23:59",
+   "expected": "NEW",
+   "hard": false
+  },
+  {
+   "title": "Case Study 4 Reflection",
+   "date": "2026-12-02",
+   "time": "23:59",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Dentist appointment",
+   "date": "2026-11-17",
+   "time": "15:00",
+   "expected": "NEW",
+   "hard": false
+  },
+  {
+   "title": "Pick up groceries",
+   "date": "2026-11-17",
+   "time": "18:00",
+   "expected": "NEW",
+   "hard": false
+  },
+  {
+   "title": "Quiz 5 review session",
+   "date": "2026-11-17",
+   "time": "16:00",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Study group",
+   "date": "2026-12-03",
+   "time": "12:00",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Final project milestone 3",
+   "date": "2026-12-08",
+   "time": "23:59",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Career fair prep",
+   "date": "2026-11-20",
+   "time": "14:00",
+   "expected": "NEW",
+   "hard": false
+  },
+  {
+   "title": "Budget review",
+   "date": "2026-11-18",
+   "time": "13:00",
+   "expected": "NEW",
+   "hard": false
+  },
+  {
+   "title": "Survey: course feedback",
+   "date": "2026-11-20",
+   "time": "23:59",
+   "expected": "NEW",
+   "hard": false
+  },
+  {
+   "title": "Thanksgiving dinner",
+   "date": "2026-11-26",
+   "time": "14:00",
+   "expected": "NEW",
+   "hard": false
+  },
+  {
+   "title": "CS 415 Lecture",
+   "date": "2026-11-23",
+   "time": "14:00",
+   "expected": "NEW",
+   "hard": true
+  },
+  {
+   "title": "Team standup",
+   "date": "2026-11-24",
+   "time": "09:00",
+   "expected": "NEW",
+   "hard": true
+  }
+ ]
+}

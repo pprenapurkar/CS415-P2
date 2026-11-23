@@ -1,0 +1,10 @@
+
+=== Dump test: 20 held-out dumps (today = Mon Nov 16, 2026) ===
+rule-based parser: items found 21/21 | date 21/21 (100%) | time 21/21 (100%) | date+time 42/42 (100%) | category 19/21 (90%) | expected flags raised 2/4 | unneeded flags 2 | spurious items 0 | forbidden created 0
+    missed ('103', 'lab', 'flag:time')
+    missed ('113', 'quarterly', 'flag:time')
+    wrong ('103', 'lab', 'category', 'Work', 'School')
+    wrong ('113', 'quarterly', 'category', None, 'Work')
+    unneeded ('103', 'lab', 'category')
+    unneeded ('113', 'quarterly', 'category')
+

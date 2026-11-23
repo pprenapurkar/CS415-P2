@@ -1,0 +1,70 @@
+{
+ "_notes": "Hand labels. kw = any keyword matches the extracted title (lowercase). date/time null means 'not stated, do not invent'. alt_* are also accepted; an item with alt_cat or alt_date/alt_time is ambiguous and should be flagged on that field. unsure = fields that should be flagged. optional = extracting is neither required nor penalised. forbidden = must not be created.",
+ "labels": {
+  "1": {"items": [
+    {"kw": ["work meeting", "meeting"], "cat": "Work", "date": "2026-11-17", "time": "10:00"},
+    {"kw": ["hci"], "cat": "School", "date": "2026-11-20", "time": null},
+    {"kw": ["ugc", "wireframe"], "cat": "Projects", "date": "2026-11-16", "time": null},
+    {"kw": ["appointment"], "cat": "Personal", "date": "2026-11-17", "time": "16:00", "unsure": ["date"], "alt_date": ["2026-11-16"]}]},
+  "2": {"items": [
+    {"kw": ["office hours"], "cat": "Work", "date": "2026-11-18", "time": "14:00"},
+    {"kw": ["design review"], "cat": "Work", "date": "2026-11-19", "time": "09:30"},
+    {"kw": ["quiz 6", "quiz"], "cat": "School", "date": "2026-11-30", "time": null}]},
+  "3": {"items": [{"kw": ["dentist"], "cat": "Personal", "date": "2026-11-18", "time": "15:00"}]},
+  "4": {"items": [
+    {"kw": ["p2", "write-up", "prototype"], "cat": "School", "date": "2026-11-20", "time": "23:59"},
+    {"kw": ["email", "miller", "extension"], "cat": "School", "date": null, "time": null}]},
+  "5": {"items": [
+    {"kw": ["sprint"], "cat": "Work", "date": "2026-11-18", "time": "16:00"},
+    {"kw": ["1:1", "manager"], "cat": "Work", "date": "2026-11-17", "time": "10:30"}]},
+  "6": {"items": [{"kw": ["car", "inspect"], "cat": "Personal", "date": null, "time": null, "unsure": ["date"]}]},
+  "7": {"items": [
+    {"kw": ["study group"], "cat": "School", "date": "2026-11-19", "time": "12:00"},
+    {"kw": ["charger", "laptop"], "cat": "Personal", "date": null, "time": null, "optional": true}]},
+  "8": {"items": [
+    {"kw": ["homework 6", "homework"], "cat": "School", "date": "2026-11-24", "time": null},
+    {"kw": ["final presentation", "slides"], "cat": "School", "date": "2026-12-04", "time": "09:59"}]},
+  "9": {"items": [], "note": "no commitments; nothing should be created"},
+  "10": {"items": [
+    {"kw": ["capstone"], "cat": "School", "alt_cat": ["Projects"], "date": "2026-11-17", "time": "11:00"},
+    {"kw": ["project sync", "sync"], "cat": "Projects", "alt_cat": ["Work"], "date": "2026-11-17", "time": "15:30", "alt_time": ["16:00"], "unsure": ["time"]}]},
+  "11": {"items": [
+    {"kw": ["rent"], "cat": "Personal", "date": "2026-12-01", "time": null},
+    {"kw": ["mom"], "cat": "Personal", "date": "2026-11-22", "time": null}]},
+  "12": {"items": [
+    {"kw": ["advisor"], "cat": "School", "alt_cat": ["Work"], "date": "2026-11-20", "time": "11:00"},
+    {"kw": ["career fair"], "cat": "Personal", "alt_cat": ["School"], "date": "2026-11-20", "time": "13:00"}]},
+  "13": {"items": [
+    {"kw": ["hci", "reading"], "cat": "School", "date": "2026-11-16", "time": null},
+    {"kw": ["weekly report", "report"], "cat": "Work", "date": "2026-11-17", "time": null},
+    {"kw": ["dinner"], "cat": "Personal", "date": "2026-11-20", "time": "19:00"}]},
+  "14": {"items": [
+    {"kw": ["reading response"], "cat": "School", "date": "2026-11-17", "time": "23:59"},
+    {"kw": ["lab 7", "lab"], "cat": "School", "date": "2026-11-19", "time": "23:59"}]},
+  "15": {"items": [{"kw": ["thing"], "cat": null, "date": "2026-11-28", "time": null, "unsure": ["category"]}]},
+  "16": {"items": [{"kw": ["miller", "meeting"], "cat": "School", "date": "2026-11-17", "time": "15:00"}]},
+  "17": {"items": [{"kw": ["retro"], "cat": "Work", "date": "2026-11-27", "alt_date": ["2026-11-20"], "time": "15:00", "unsure": ["date"]}]},
+  "18": {"items": [
+    {"kw": ["class"], "cat": "School", "date": "2026-11-18", "time": "14:00"},
+    {"kw": ["sprint"], "cat": "Work", "date": "2026-11-18", "time": "16:00"},
+    {"kw": ["lunch"], "cat": "Personal", "date": "2026-11-18", "time": null, "optional": true}]},
+  "19": {"items": [{"kw": ["budget"], "cat": "Work", "date": "2026-11-19", "time": "12:00"}]},
+  "20": {"items": [
+    {"kw": ["proposal"], "cat": "School", "date": "2026-11-23", "time": null},
+    {"kw": ["peer review"], "cat": "School", "date": "2026-11-22", "time": "17:00"}]},
+  "21": {"items": [{"kw": ["doctor"], "cat": "Personal", "date": "2026-11-30", "time": "09:00"}]},
+  "22": {"items": [
+    {"kw": ["wireframe", "ugc"], "cat": "Projects", "date": "2026-11-18", "time": null},
+    {"kw": ["figma"], "cat": "Projects", "alt_cat": ["Work"], "date": "2026-11-19", "time": null}]},
+  "23": {"items": [{"kw": ["study group"], "cat": "School", "date": "2026-11-20", "time": "16:00"}],
+         "forbidden": [{"kw": ["study group"], "date": "2026-11-19"}]},
+  "24": {"items": [
+    {"kw": ["retro"], "cat": "Work", "date": "2026-11-20", "time": "15:00"},
+    {"kw": ["drinks"], "cat": "Personal", "alt_cat": ["Work"], "date": "2026-11-20", "time": "17:00", "unsure": ["time"]}]},
+  "25": {"items": [
+    {"kw": ["quiz 5", "quiz"], "cat": "School", "date": "2026-11-17", "time": "09:00", "unsure": ["time"]},
+    {"kw": ["1:1", "manager"], "cat": "Work", "date": "2026-11-17", "time": "11:00"},
+    {"kw": ["milestone"], "cat": "School", "date": "2026-12-01", "time": null},
+    {"kw": ["groceries", "buy"], "cat": "Personal", "date": "2026-11-16", "time": null}]}
+ }
+}

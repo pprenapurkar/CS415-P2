@@ -1,0 +1,52 @@
+{
+ "set": "unreadable",
+ "headline": "Canvas captured. Outlook unavailable. 5 item(s) need review.",
+ "sources": [
+  {
+   "name": "Canvas",
+   "expected": 12,
+   "read": 11,
+   "status": "Captured",
+   "detail": "Read 11 items; looks complete."
+  },
+  {
+   "name": "Outlook",
+   "expected": 12,
+   "read": 0,
+   "status": "Unavailable",
+   "detail": "Could not read this screenshot (0 of about 12 items). Nothing is reported missing."
+  }
+ ],
+ "needs_review": [
+  {
+   "type": "MISSING",
+   "source": "Canvas",
+   "title": "Quiz 5",
+   "why": "Expected 2026-11-18 but it is not in the screenshot."
+  },
+  {
+   "type": "MISSING",
+   "source": "Canvas",
+   "title": "Peer Review: Teammate Feedback",
+   "why": "Expected 2026-11-22 but it is not in the screenshot."
+  },
+  {
+   "type": "CHANGED",
+   "source": "Canvas",
+   "title": "Project Proposal Draft",
+   "why": "time: 23:59 -> 12:00"
+  },
+  {
+   "type": "CHANGED",
+   "source": "Canvas",
+   "title": "Homework 6",
+   "why": "date: 2026-11-24 -> 2026-11-27"
+  },
+  {
+   "type": "NEW",
+   "source": "Canvas",
+   "title": "Survey: Course Feedback",
+   "why": "On 2026-11-20, not on your list."
+  }
+ ]
+}
